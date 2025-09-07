@@ -21,7 +21,7 @@ export default function HomePage() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href="/contact" className="primary-cta">Bắt đầu hành trình</Link>
-            <Link href="#stories" className="secondary-cta">Khám phá câu chuyện thành công</Link>
+            <Link href={{ pathname: '/', hash: 'stories' }} className="secondary-cta">Khám phá câu chuyện thành công</Link>
           </div>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function HomePage() {
         <div className="section-wrapper">
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">Tại sao hành trình của bạn cần FastFact Du Học?</h2>
           <p className="mt-4 body-copy max-w-3xl">
-            Mỗi hành trình đều cần người dẫn đường đáng tin cậy. Với quy trình minh bạch, dữ liệu cập nhật và sự tận tâm, chúng tôi đã đồng hành cùng hàng ngàn học sinh biến ước mơ thành kế hoạch cụ thể – từng bước vững chắc tới tương lai.
+            Mỗi hành trình đều cần người dẫn đường đáng tin cậy. Với quy trình minh bạch, dữ liệu cập nhật và sự tận tâm, chúng tôi đã ��ồng hành cùng hàng ngàn học sinh biến ước mơ thành kế hoạch cụ thể – từng bước vững chắc tới tương lai.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
