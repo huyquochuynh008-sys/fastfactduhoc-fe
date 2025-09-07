@@ -36,7 +36,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-white/75"></div>
         </div>
         <div className="section-wrapper max-w-4xl">
-          <p className="text-sm font-medium text-brandBlue">Du học không chỉ là đích đến – đó là câu chuyện của bạn</p>
+          <p className="text-sm font-medium text-brandBlue">Du học kh��ng chỉ là đích đến – đó là câu chuyện của bạn</p>
           <h1 className="mt-2 text-3xl sm:text-5xl font-extrabold text-gray-900">
             Bạn viết câu chuyện. Chúng tôi mở cánh cửa tới <span className="text-brandBlue">Mỹ</span> &{' '}
             <span className="text-brandRed">Canada</span>
@@ -56,7 +56,7 @@ export default function HomePage() {
       <section className="py-16">
         <div className="section-wrapper">
           <header className="max-w-3xl">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Hành trình của bạn, chúng tôi đồng hành</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Hành trình của bạn, chúng t��i đồng hành</h2>
             <p className="mt-3 body-copy">Con đường du học của bạn được vạch rõ – từng bước đều mang ý nghĩa, cảm xúc và giá trị riêng.</p>
           </header>
 
@@ -79,10 +79,13 @@ export default function HomePage() {
                   <p className="text-xs font-semibold uppercase tracking-wide text-brandBlue">Bước 1 – Tư vấn 1:1</p>
                   <h3 className="mt-1 font-semibold text-gray-900">Khám phá chính bạn.</h3>
                   <p className="mt-2 text-sm text-gray-700">
-                    Trước khi bay cao, bạn cần biết mình là ai. Chúng tôi giúp bạn khám phá những điểm mạnh và đam mê tiềm ẩn để
-                    xây dựng hồ sơ độc nhất, làm nổi bật cá tính riêng của bạn.
+                    Trước khi nghĩ đến visa hay học bổng, bạn cần hiểu rõ bản thân. Chúng tôi đồng hành khai mở điểm mạnh, đam mê và mục tiêu
+                    để dựng “bản đồ thế mạnh” riêng bạn — nền tảng của một hồ sơ du học Mỹ/Canada khác biệt.
                   </p>
-                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: infographic mảnh ghép ghép thành bức tranh, icon hoạt hình về tư duy.</p>
+                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: infographic mảnh ghép hợp thành bức tranh; icon não/bóng đèn tư duy có animation ánh sáng.</p>
+                  <div className="mt-3">
+                    <Link href="/contact" className="text-xs font-medium text-brandBlue hover:underline">Đặt lịch 1:1 miễn phí</Link>
+                  </div>
                 </div>
               </div>
               <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">01</span>
@@ -105,10 +108,13 @@ export default function HomePage() {
                   <p className="text-xs font-semibold uppercase tracking-wide text-brandRed">Bước 2 – Viết SOP</p>
                   <h3 className="mt-1 font-semibold text-gray-900">Vẽ giấc mơ của bạn.</h3>
                   <p className="mt-2 text-sm text-gray-700">
-                    Câu chuyện của bạn là chìa khóa. Chúng tôi không chỉ viết SOP, chúng tôi giúp bạn biến những trải nghiệm, khó khăn
-                    và ước mơ thành một câu chuyện mạnh mẽ, thuyết phục hội đồng tuyển sinh.
+                    SOP là câu chuyện — không chỉ là bài viết. Chúng tôi dùng kỹ thuật kể chuyện (hook–turning point–growth–vision) để biến trải nghiệm,
+                    thử thách và khát vọng của bạn thành một bài SOP du học thuyết phục, mở ra cơ hội học bổng.
                   </p>
-                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: GIF bàn tay đang viết, nét chữ tỏa sáng hoặc biểu tượng nghề nghiệp mong muốn.</p>
+                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: GIF bàn tay viết, nét chữ tỏa sáng; icon ngành (CS, Business, Design…).</p>
+                  <div className="mt-3">
+                    <Link href="/contact" className="text-xs font-medium text-brandRed hover:underline">Bắt đầu bản nháp 15’</Link>
+                  </div>
                 </div>
               </div>
               <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">02</span>
@@ -130,13 +136,74 @@ export default function HomePage() {
                   <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Bước 3 – Hỗ trợ Visa</p>
                   <h3 className="mt-1 font-semibold text-gray-900">Chạm tay vào tương lai.</h3>
                   <p className="mt-2 text-sm text-gray-700">
-                    Không chỉ là hồ sơ, chúng tôi giúp bạn tự tin vượt qua phỏng vấn. Bạn đã có đủ hành trang để chinh phục mọi thử thách
-                    và nắm chắc tấm vé đến với giấc mơ du học.
+                    Từ checklist hồ sơ, chiến lược tài chính đến mock interview bám sát thực tế — bạn bước vào phỏng vấn với sự tự tin có chuẩn bị,
+                    tăng xác suất đậu visa du học Mỹ/Canada.
                   </p>
-                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: GIF máy bay cất cánh từ Việt Nam và hạ cánh tại Mỹ/Canada.</p>
+                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: GIF máy bay cất cánh từ Việt Nam, hạ cánh tại Mỹ/Canada; icon hộ chiếu/tem visa.</p>
+                  <div className="mt-3">
+                    <Link href="/contact" className="text-xs font-medium text-emerald-700 hover:underline">Đặt lịch mock interview</Link>
+                  </div>
                 </div>
               </div>
               <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">03</span>
+            </li>
+
+            {/* Step 4 */}
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+              <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-100/40 via-transparent to-amber-200/40"></div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="relative h-12 w-12 shrink-0 rounded-xl bg-amber-50 ring-1 ring-amber-100 flex items-center justify-center transition-transform group-hover:scale-110">
+                  {/* Calendar/Checklist icon */}
+                  <svg viewBox="0 0 24 24" className="h-6 w-6 text-amber-600" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                    <path d="M7 3v4M17 3v4M3 9h18M5 12h6M5 16h6M13 16l2 2 4-4"/>
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Bước 4 – Hỗ trợ đăng ký trường</p>
+                  <h3 className="mt-1 font-semibold text-gray-900">Nộp hồ sơ chiến lược.</h3>
+                  <p className="mt-2 text-sm text-gray-700">
+                    Shortlist reach–target–safe theo hồ sơ và ngân sách; timeline deadline rõ ràng; tối ưu LOR, CV, tiếng Anh. Mục tiêu: tăng tỷ lệ nhận offer
+                    và cơ hội học bổng từ các trường phù hợp.
+                  </p>
+                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: lịch có mốc; checklist tự tick; bản đồ có ghim logo trường.</p>
+                  <div className="mt-3">
+                    <Link href="/services" className="text-xs font-medium text-amber-700 hover:underline">Nhận shortlist 3–5 trường</Link>
+                  </div>
+                </div>
+              </div>
+              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">04</span>
+            </li>
+
+            {/* Step 5 */}
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+              <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-100/40 via-transparent to-indigo-200/40"></div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="relative h-12 w-12 shrink-0 rounded-xl bg-indigo-50 ring-1 ring-indigo-100 flex items-center justify-center transition-transform group-hover:scale-110">
+                  {/* Suitcase/Compass icon */}
+                  <svg viewBox="0 0 24 24" className="h-6 w-6 text-indigo-700" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                    <path d="M9 6V4h6v2"/>
+                    <rect x="4" y="6" width="16" height="14" rx="2"/>
+                    <path d="M9 12l3-1 3 1-3 1-3-1z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700">Bước 5 – Đào tạo</p>
+                  <h3 className="mt-1 font-semibold text-gray-900">Sẵn sàng hòa nhập.</h3>
+                  <p className="mt-2 text-sm text-gray-700">
+                    Bộ kỹ năng cho du học Mỹ/Canada: luyện phỏng vấn, quản lý thời gian, note-taking, academic writing, văn hóa campus và networking.
+                    Bạn đến nơi với một playbook hòa nhập rõ ràng.
+                  </p>
+                  <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: vali mở ra “survival kit”; icon la bàn, đồng hồ, nhóm bạn.</p>
+                  <div className="mt-3">
+                    <Link href="/contact" className="text-xs font-medium text-indigo-700 hover:underline">Đăng ký workshop miễn phí</Link>
+                  </div>
+                </div>
+              </div>
+              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">05</span>
             </li>
           </ol>
 
