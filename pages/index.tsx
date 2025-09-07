@@ -88,8 +88,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">01</span>
-            </li>
+                          </li>
 
             {/* Step 2 */}
             <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-brandRed/40">
@@ -117,8 +116,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">02</span>
-            </li>
+                          </li>
 
             {/* Step 3 */}
             <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-emerald-300">
@@ -136,7 +134,7 @@ export default function HomePage() {
                   <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Bước 3 – Hỗ trợ Visa</p>
                   <h3 className="mt-1 font-semibold text-gray-900 transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-emerald-700 group-hover:to-emerald-400">Chạm tay vào tương lai.</h3>
                   <p className="mt-2 text-sm text-gray-700">
-                    Từ checklist hồ sơ, chiến lược tài chính đến mock interview bám sát thực tế — bạn bước vào phỏng vấn với sự tự tin có chuẩn bị,
+                    Từ checklist hồ sơ, chi���n lược tài chính đến mock interview bám sát thực tế — bạn bước vào phỏng vấn với sự tự tin có chuẩn bị,
                     tăng xác suất đậu visa du học Mỹ/Canada.
                   </p>
                   <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: GIF máy bay cất cánh từ Việt Nam, hạ cánh tại Mỹ/Canada; icon hộ chiếu/tem visa.</p>
@@ -145,8 +143,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">03</span>
-            </li>
+                          </li>
 
             {/* Step 4 */}
             <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-amber-300">
@@ -173,8 +170,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">04</span>
-            </li>
+                          </li>
 
             {/* Step 5 */}
             <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-indigo-300">
@@ -203,8 +199,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <span className="absolute right-4 top-4 text-xs font-medium text-gray-400">05</span>
-            </li>
+                          </li>
           </ol>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -262,7 +257,7 @@ export default function HomePage() {
             <details className="rounded-lg border border-gray-100 bg-white p-4 open:shadow-sm">
               <summary className="cursor-pointer select-none font-medium text-gray-900">SOP vì sao quan trọng?</summary>
               <p className="mt-2 text-sm text-gray-700">
-                SOP thể hiện động lực, năng lực và kế hoạch tương lai. Chúng tôi đồng hành từ dàn ý đến chỉnh sửa nhiều vòng để câu chuyện
+                SOP thể hiện động lực, năng lực và k�� hoạch tương lai. Chúng tôi đồng hành từ dàn ý đến chỉnh sửa nhiều vòng để câu chuyện
                 của bạn nổi bật và nhất quán với hồ sơ.
               </p>
             </details>
