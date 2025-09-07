@@ -36,7 +36,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-white/75"></div>
         </div>
         <div className="section-wrapper max-w-4xl">
-          <p className="text-sm font-medium text-brandBlue">Du học kh��ng chỉ là đích đến – đó là câu chuyện của bạn</p>
+          <p className="text-sm font-medium text-brandBlue">Du học không chỉ là đích đến – đó là câu chuyện của bạn</p>
           <h1 className="mt-2 text-3xl sm:text-5xl font-extrabold text-gray-900">
             Bạn viết câu chuyện. Chúng tôi mở cánh cửa tới <span className="text-brandBlue">Mỹ</span> &{' '}
             <span className="text-brandRed">Canada</span>
@@ -56,15 +56,15 @@ export default function HomePage() {
       <section className="py-16">
         <div className="section-wrapper">
           <header className="max-w-3xl">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Hành trình của bạn, chúng t��i đồng hành</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Hành trình của bạn, chúng tôi đồng hành</h2>
             <p className="mt-3 body-copy">Con đường du học của bạn được vạch rõ – từng bước đều mang ý nghĩa, cảm xúc và giá trị riêng.</p>
           </header>
 
           <ol className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {/* Step 1 */}
-            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-brandBlue/40">
               <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
-                <div className="absolute inset-0 bg-gradient-to-br from-brandBlue/5 via-brandBlue/0 to-brandRed/10"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-brandBlue/15 via-transparent to-brandBlue/0"></div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative h-12 w-12 shrink-0 rounded-xl bg-blue-50 ring-1 ring-blue-100 flex items-center justify-center transition-transform group-hover:scale-110">
@@ -92,9 +92,9 @@ export default function HomePage() {
             </li>
 
             {/* Step 2 */}
-            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-brandRed/40">
               <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
-                <div className="absolute inset-0 bg-gradient-to-br from-brandRed/10 via-transparent to-brandBlue/5"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-brandRed/15 via-transparent to-brandRed/0"></div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative h-12 w-12 shrink-0 rounded-xl bg-rose-50 ring-1 ring-rose-100 flex items-center justify-center transition-transform group-hover:scale-110">
@@ -121,9 +121,9 @@ export default function HomePage() {
             </li>
 
             {/* Step 3 */}
-            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-emerald-300">
               <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
-                <div className="absolute inset-0 bg-gradient-to-br from-brandBlue/5 via-transparent to-brandRed/15"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-emerald-100/40 via-transparent to-emerald-200/40"></div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative h-12 w-12 shrink-0 rounded-xl bg-emerald-50 ring-1 ring-emerald-100 flex items-center justify-center transition-transform group-hover:scale-110">
@@ -149,7 +149,7 @@ export default function HomePage() {
             </li>
 
             {/* Step 4 */}
-            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-amber-300">
               <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-100/40 via-transparent to-amber-200/40"></div>
               </div>
@@ -177,7 +177,7 @@ export default function HomePage() {
             </li>
 
             {/* Step 5 */}
-            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+            <li className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:border-indigo-300">
               <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden>
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-100/40 via-transparent to-indigo-200/40"></div>
               </div>
