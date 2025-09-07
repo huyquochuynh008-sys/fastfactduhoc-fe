@@ -15,8 +15,16 @@ html, body, #__next {
   @apply text-gray-700 leading-relaxed;
 }
 
+.hero-copy {
+  @apply text-gray-900 leading-relaxed text-lg md:text-xl;
+}
+
 .section-wrapper {
   @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.hero-section .body-copy {
+  @apply text-gray-900 text-lg md:text-xl;
 }
 
 .primary-cta {
