@@ -3,10 +3,13 @@ import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Head from 'next/head'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className={`${inter.className} min-h-screen flex flex-col`}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>FastFact Du Học – Tư vấn du học & visa Mỹ, Canada</title>
