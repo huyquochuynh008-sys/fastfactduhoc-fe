@@ -10,8 +10,15 @@ export default function HomePage() {
       </Head>
 
       {/* Hero */}
-      <section className="section-wrapper py-16 sm:py-24">
-        <div className="max-w-3xl">
+      <section className="relative py-16 sm:py-24">
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <video className="h-full w-full object-cover" autoPlay muted loop playsInline preload="metadata" aria-hidden>
+            <source src="https://videos.pexels.com/video-files/5138030/5138030-sd_338_640_25fps.mp4" type="video/mp4" />
+            <source src="https://videos.pexels.com/video-files/6549534/6549534-hd_720_1280_25fps.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-white/70"></div>
+        </div>
+        <div className="section-wrapper max-w-3xl">
           <p className="text-sm font-medium text-brandBlue">Bắt đầu hành trình của bạn</p>
           <h1 className="mt-2 text-3xl sm:text-5xl font-bold text-gray-900">
             Khởi hành hôm nay, chạm tới tương lai – Cánh cửa du học <span className="text-brandBlue">Mỹ</span> & <span className="text-brandRed">Canada</span> đang mở
@@ -25,7 +32,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
 
       {/* Services as steps */}
       <section className="py-14">
@@ -109,7 +115,7 @@ export default function HomePage() {
               <p className="mt-2 text-sm text-gray-700">Không ai có thể đảm bảo 100%. Chúng tôi tập trung chuẩn bị hồ sơ trung thực, logic và luyện phỏng vấn kỹ lưỡng để tối đa hóa khả năng thành công.</p>
             </details>
             <details className="rounded-lg border border-gray-100 bg-white p-4 open:shadow-sm">
-              <summary className="cursor-pointer select-none font-medium text-gray-900">Bao lâu để hoàn tất hồ sơ?</summary>
+              <summary className="cursor-pointer select-none font-medium text-gray-900">Bao lâu đ�� hoàn tất hồ sơ?</summary>
               <p className="mt-2 text-sm text-gray-700">Tùy chương trình và thời điểm, trung bình 6–12 tuần cho chuẩn bị và nộp. Chúng tôi sẽ đưa timeline chi tiết theo từng bước để bạn chủ động.</p>
             </details>
           </div>
