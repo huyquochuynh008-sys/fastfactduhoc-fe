@@ -24,7 +24,7 @@ export default function HomePage() {
             Khởi hành hôm nay, chạm tới tương lai – Cánh cửa du học <span className="text-brandBlue">Mỹ</span> & <span className="text-brandRed">Canada</span> đang mở
           </h1>
           <p className="mt-6 body-copy">
-            Bối rối chọn ngành, sợ trượt visa, ngập trong thông tin? Chúng tôi biến lo lắng thành một lộ trình rõ ràng, có chuyên gia đồng hành 1:1 từ định hướng đến nhập h���c – để bạn tự tin tiến bước trên con đường mới.
+            Bối rối chọn ngành, sợ trượt visa, ngập trong thông tin? Chúng tôi biến lo lắng thành một lộ trình rõ ràng, có chuyên gia đồng hành 1:1 từ định hướng đến nhập học – để bạn tự tin tiến bước trên con đường mới.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href="/contact" className="primary-cta">Bắt đầu hành trình</Link>
