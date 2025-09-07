@@ -26,29 +26,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Us */}
-      <section className="bg-gray-50 py-14">
-        <div className="section-wrapper">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">Tại sao hành trình của bạn cần FastFact Du Học?</h2>
-          <p className="mt-4 body-copy max-w-3xl">
-            Mỗi hành trình đều cần người dẫn đường đáng tin cậy. Với quy trình minh bạch, dữ liệu cập nhật và sự tận tâm, chúng tôi đã ��ồng hành cùng hàng ngàn học sinh biến ước mơ thành kế hoạch cụ thể – từng bước vững chắc tới tương lai.
-          </p>
-          <div className="mt-8 grid gap-6 sm:grid-cols-3">
-            <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
-              <p className="text-3xl font-bold text-brandBlue">7+ năm</p>
-              <p className="mt-1 text-sm text-gray-600">Kinh nghiệm tư vấn du học & visa</p>
-            </div>
-            <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
-              <p className="text-3xl font-bold text-brandRed">92%+</p>
-              <p className="mt-1 text-sm text-gray-600">Tỷ lệ đậu visa của học viên</p>
-            </div>
-            <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
-              <p className="text-3xl font-bold text-gray-900">1.200+</p>
-              <p className="mt-1 text-sm text-gray-600">Hồ sơ được tối ưu & nộp thành công</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Services as steps */}
       <section className="py-14">
@@ -82,7 +59,7 @@ export default function HomePage() {
             <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
               <p className="text-xs font-semibold uppercase tracking-wide text-brandBlue">Bước 5</p>
               <h3 className="mt-1 font-semibold text-gray-900">Đào tạo – Sẵn sàng hòa nhập</h3>
-              <p className="mt-2 text-sm text-gray-700">Luyện phỏng vấn, kỹ năng học tập, quản lý thời gian, hòa nhập văn hóa Mỹ & Canada.</p>
+              <p className="mt-2 text-sm text-gray-700">Luyện phỏng vấn, kỹ năng học tập, quản lý thời gian, hòa nh���p văn hóa Mỹ & Canada.</p>
               <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: Icon tên lửa/vali, bản đồ thế giới.</p>
             </div>
           </div>
