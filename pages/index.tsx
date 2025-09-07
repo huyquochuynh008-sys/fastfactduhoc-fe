@@ -23,7 +23,7 @@ export default function HomePage() {
           <h1 className="mt-2 text-3xl sm:text-5xl font-bold text-gray-900">
             Khởi hành hôm nay, chạm tới tương lai – Cánh cửa du học <span className="text-brandBlue">Mỹ</span> & <span className="text-brandRed">Canada</span> đang mở
           </h1>
-          <p className="mt-6 body-copy">
+          <p className="mt-6 hero-copy">
             Bối rối chọn ngành, sợ trượt visa, ngập trong thông tin? Chúng tôi biến lo lắng thành một lộ trình rõ ràng, có chuyên gia đồng hành 1:1 từ định hướng đến nhập học – để bạn tự tin tiến bước trên con đường mới.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -115,7 +115,7 @@ export default function HomePage() {
               <p className="mt-2 text-sm text-gray-700">Không ai có thể đảm bảo 100%. Chúng tôi tập trung chuẩn bị hồ sơ trung thực, logic và luyện phỏng vấn kỹ lưỡng để tối đa hóa khả năng thành công.</p>
             </details>
             <details className="rounded-lg border border-gray-100 bg-white p-4 open:shadow-sm">
-              <summary className="cursor-pointer select-none font-medium text-gray-900">Bao lâu đ�� hoàn tất hồ sơ?</summary>
+              <summary className="cursor-pointer select-none font-medium text-gray-900">Bao lâu để hoàn tất hồ sơ?</summary>
               <p className="mt-2 text-sm text-gray-700">Tùy chương trình và thời điểm, trung bình 6–12 tuần cho chuẩn bị và nộp. Chúng tôi sẽ đưa timeline chi tiết theo từng bước để bạn chủ động.</p>
             </details>
           </div>
