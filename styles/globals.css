@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-blue: #1e3a8a;
+  --brand-red: #dc2626;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+.body-copy {
+  @apply text-gray-700 leading-relaxed;
+}
+
+.section-wrapper {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.primary-cta {
+  @apply inline-flex items-center justify-center rounded-md bg-brandBlue px-5 py-3 text-white font-medium shadow hover:bg-blue-900 transition-colors;
+}
+
+.secondary-cta {
+  @apply inline-flex items-center justify-center rounded-md border border-brandBlue px-5 py-3 text-brandBlue font-medium hover:bg-blue-50 transition-colors;
+}
