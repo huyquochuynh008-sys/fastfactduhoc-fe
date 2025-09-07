@@ -43,7 +43,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-6 hero-copy">
             Từ nỗi lo mơ hồ đến lộ trình rõ ràng: chúng tôi lắng nghe, định hướng, và đồng hành 1:1 để biến mục tiêu thành hiện thực –
-            từ khám phá bản thân, viết SOP đầy cảm hứng đến tự tin bước qua buổi phỏng vấn visa.
+            từ khám phá bản th��n, viết SOP đầy cảm hứng đến tự tin bước qua buổi phỏng vấn visa.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href="/contact" className="primary-cta">Bắt đầu ngay</Link>
@@ -77,7 +77,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-brandBlue">Bước 1 – Tư vấn 1:1</p>
-                  <h3 className="mt-1 font-semibold text-gray-900">Khám phá chính bạn.</h3>
+                  <h3 className="mt-1 font-semibold text-gray-900 transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-brandBlue group-hover:to-blue-500">Khám phá chính bạn.</h3>
                   <p className="mt-2 text-sm text-gray-700">
                     Trước khi nghĩ đến visa hay học bổng, bạn cần hiểu rõ bản thân. Chúng tôi đồng hành khai mở điểm mạnh, đam mê và mục tiêu
                     để dựng “bản đồ thế mạnh” riêng bạn — nền tảng của một hồ sơ du học Mỹ/Canada khác biệt.
@@ -106,7 +106,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-brandRed">Bước 2 – Viết SOP</p>
-                  <h3 className="mt-1 font-semibold text-gray-900">Vẽ giấc mơ của bạn.</h3>
+                  <h3 className="mt-1 font-semibold text-gray-900 transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-brandRed group-hover:to-rose-500">Vẽ giấc mơ của bạn.</h3>
                   <p className="mt-2 text-sm text-gray-700">
                     SOP là câu chuyện — không chỉ là bài viết. Chúng tôi dùng kỹ thuật kể chuyện (hook–turning point–growth–vision) để biến trải nghiệm,
                     thử thách và khát vọng của bạn thành một bài SOP du học thuyết phục, mở ra cơ hội học bổng.
@@ -134,7 +134,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Bước 3 – Hỗ trợ Visa</p>
-                  <h3 className="mt-1 font-semibold text-gray-900">Chạm tay vào tương lai.</h3>
+                  <h3 className="mt-1 font-semibold text-gray-900 transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-emerald-700 group-hover:to-emerald-400">Chạm tay vào tương lai.</h3>
                   <p className="mt-2 text-sm text-gray-700">
                     Từ checklist hồ sơ, chiến lược tài chính đến mock interview bám sát thực tế — bạn bước vào phỏng vấn với sự tự tin có chuẩn bị,
                     tăng xác suất đậu visa du học Mỹ/Canada.
@@ -162,7 +162,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Bước 4 – Hỗ trợ đăng ký trường</p>
-                  <h3 className="mt-1 font-semibold text-gray-900">Nộp hồ sơ chiến lược.</h3>
+                  <h3 className="mt-1 font-semibold text-gray-900 transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-amber-600 group-hover:to-amber-400">Nộp hồ sơ chiến lược.</h3>
                   <p className="mt-2 text-sm text-gray-700">
                     Shortlist reach–target–safe theo hồ sơ và ngân sách; timeline deadline rõ ràng; tối ưu LOR, CV, tiếng Anh. Mục tiêu: tăng tỷ lệ nhận offer
                     và cơ hội học bổng từ các trường phù hợp.
@@ -192,7 +192,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700">Bước 5 – Đào tạo</p>
-                  <h3 className="mt-1 font-semibold text-gray-900">Sẵn sàng hòa nhập.</h3>
+                  <h3 className="mt-1 font-semibold text-gray-900 transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-indigo-700 group-hover:to-indigo-400">Sẵn sàng hòa nhập.</h3>
                   <p className="mt-2 text-sm text-gray-700">
                     Bộ kỹ năng cho du học Mỹ/Canada: luyện phỏng vấn, quản lý thời gian, note-taking, academic writing, văn hóa campus và networking.
                     Bạn đến nơi với một playbook hòa nhập rõ ràng.
@@ -236,7 +236,7 @@ export default function HomePage() {
             </figure>
             <figure className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
               <blockquote className="text-gray-800">
-                “Buổi luyện phỏng vấn giúp mình bình tĩnh và trả lời mạch lạc. Đến hôm thi, mình thấy như đang diễn lại buổi luyện tập.”
+                “Buổi luyện phỏng vấn giúp mình bình tĩnh và trả lời mạch l��c. Đến hôm thi, mình thấy như đang diễn lại buổi luyện tập.”
               </blockquote>
               <figcaption className="mt-3 text-sm text-gray-600">Linh P. – Data Analytics, Canada</figcaption>
             </figure>
@@ -273,7 +273,7 @@ export default function HomePage() {
               </p>
             </details>
             <details className="rounded-lg border border-gray-100 bg-white p-4 open:shadow-sm">
-              <summary className="cursor-pointer select-none font-medium text-gray-900">Mất bao lâu để hoàn tất?</summary>
+              <summary className="cursor-pointer select-none font-medium text-gray-900">Mất bao lâu đ��� hoàn tất?</summary>
               <p className="mt-2 text-sm text-gray-700">
                 Tùy chương trình và thời điểm, trung bình 6–12 tuần. Chúng tôi đưa timeline chi tiết theo từng bước để bạn chủ động.
               </p>
