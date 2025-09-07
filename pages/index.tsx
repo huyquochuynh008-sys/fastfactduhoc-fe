@@ -10,7 +10,7 @@ export default function HomePage() {
       </Head>
 
       {/* Hero */}
-      <section className="relative py-16 sm:py-24">
+      <section className="hero-section relative py-16 sm:py-24">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <video className="h-full w-full object-cover" autoPlay muted loop playsInline preload="metadata" aria-hidden>
             <source src="https://videos.pexels.com/video-files/5138030/5138030-sd_338_640_25fps.mp4" type="video/mp4" />
@@ -23,8 +23,8 @@ export default function HomePage() {
           <h1 className="mt-2 text-3xl sm:text-5xl font-bold text-gray-900">
             Khởi hành hôm nay, chạm tới tương lai – Cánh cửa du học <span className="text-brandBlue">Mỹ</span> & <span className="text-brandRed">Canada</span> đang mở
           </h1>
-          <p className="mt-6 hero-copy">
-            Bối rối chọn ngành, sợ trượt visa, ngập trong thông tin? Chúng tôi biến lo lắng thành một lộ trình rõ ràng, có chuyên gia đồng hành 1:1 từ định hướng đến nhập học – để bạn tự tin tiến bước trên con đường mới.
+          <p className="mt-6 body-copy">
+            Bối rối chọn ngành, sợ trượt visa, ngập trong thông tin? Chúng tôi biến lo lắng thành một lộ trình rõ ràng, có chuyên gia đồng hành 1:1 từ định hướng đến nhập h���c – để bạn tự tin tiến bước trên con đường mới.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href="/contact" className="primary-cta">Bắt đầu hành trình</Link>
@@ -65,7 +65,7 @@ export default function HomePage() {
             <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
               <p className="text-xs font-semibold uppercase tracking-wide text-brandBlue">Bước 5</p>
               <h3 className="mt-1 font-semibold text-gray-900">Đào tạo – Sẵn sàng hòa nhập</h3>
-              <p className="mt-2 text-sm text-gray-700">Luyện phỏng vấn, kỹ năng học tập, quản lý thời gian, hòa nh���p văn hóa Mỹ & Canada.</p>
+              <p className="mt-2 text-sm text-gray-700">Luyện phỏng vấn, kỹ năng học tập, quản lý thời gian, hòa nhập văn hóa Mỹ & Canada.</p>
               <p className="mt-3 text-xs text-gray-500">Gợi ý hình ảnh: Icon tên lửa/vali, bản đồ thế giới.</p>
             </div>
           </div>
