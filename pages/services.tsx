@@ -143,7 +143,6 @@ export default function ServicesPage() {
               ]}
               priceFrom={490000}
               variant="blue"
-              badge="Khởi động"
               icon={
                 <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                   <path d="M9 18h6"/>
@@ -155,7 +154,7 @@ export default function ServicesPage() {
 
             <ServiceCard
               title="Viết SOP – Câu chuyện thuyết phục"
-              description="Khai thác trải nghiệm, turning point & tầm nhìn nghề nghiệp; SOP mạch lạc, chân thật, nhất quán hồ sơ và có khả năng giành học bổng."
+              description="Khai thác trải nghiệm, turning point & tầm nhìn nghề nghiệp; SOP mạch lạc, chân thật, nhất quán hồ sơ v�� có khả năng giành học bổng."
               benefits={[
                 'Khung theo yêu cầu từng trường',
                 'Chỉnh sửa nhiều vòng đến khi sắc nét',
@@ -163,7 +162,6 @@ export default function ServicesPage() {
               ]}
               priceFrom={4900000}
               variant="rose"
-              badge="Phổ biến"
               icon={
                 <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                   <path d="M12.5 6.5l5 5"/>
@@ -177,7 +175,7 @@ export default function ServicesPage() {
               description="Từ shortlist, chuẩn bị tài liệu, điền form, nộp và theo dõi; mọi khâu có checklist rõ ràng để tiết kiệm thời gian & công sức."
               benefits={[
                 'Lịch nộp hồ sơ & nhắc hạn',
-                'Rà soát đầy đ�� – chính xác trước khi gửi',
+                'Rà soát đầy đủ – chính xác trước khi gửi',
                 'Hướng dẫn học bổng/miễn phí nếu có',
               ]}
               priceFrom={1900000}
