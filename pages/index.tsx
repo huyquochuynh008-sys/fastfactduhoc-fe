@@ -43,7 +43,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-6 hero-copy">
             Từ nỗi lo mơ hồ đến lộ trình rõ ràng: chúng tôi lắng nghe, định hướng, và đồng hành 1:1 để biến mục tiêu thành hiện thực –
-            từ khám phá bản th��n, viết SOP đầy cảm hứng đến tự tin bước qua buổi phỏng vấn visa.
+            từ khám phá bản thân, viết SOP đầy cảm hứng đến tự tin bước qua buổi phỏng vấn visa.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href="/contact" className="primary-cta">Bắt đầu ngay</Link>
