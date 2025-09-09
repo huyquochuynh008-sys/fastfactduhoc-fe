@@ -1,9 +1,28 @@
 import Head from 'next/head'
 
-function ServiceCard({ title, description, benefits }: { title: string; description: string; benefits: string[] }) {
+const formatVND = (n: number) =>
+  n.toLocaleString('vi-VN', { style: 'currency', currency: 'VND', maximumFractionDigits: 0 })
+
+function ServiceCard({
+  title,
+  description,
+  benefits,
+  priceFrom,
+}: {
+  title: string
+  description: string
+  benefits: string[]
+  priceFrom: number
+}) {
   return (
     <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
-      <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
+      <div className="flex items-baseline justify-between">
+        <span className="inline-flex items-center rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-brandBlue ring-1 ring-blue-100">
+          Giá từ
+        </span>
+        <div className="text-2xl font-bold text-gray-900">{formatVND(priceFrom)}</div>
+      </div>
+      <h3 className="mt-4 text-lg font-semibold text-gray-900">{title}</h3>
       <p className="mt-2 text-gray-700">{description}</p>
       <ul className="mt-4 list-disc pl-5 text-sm text-gray-700 space-y-1">
         {benefits.map((b, i) => (
@@ -34,6 +53,7 @@ export default function ServicesPage() {
               'Tư vấn học bổng và tài chính',
               'Theo dõi tiến độ và điều chỉnh linh hoạt',
             ]}
+            priceFrom={490000}
           />
           <ServiceCard
             title="Viết SOP (Tuyên bố Mục đích) – Câu chuyện thuyết phục"
@@ -44,9 +64,10 @@ export default function ServicesPage() {
               'Tối ưu tính nhất quán với CV, LOR, hồ sơ học thuật',
               'Gia tăng sức thuyết phục và khác biệt',
             ]}
+            priceFrom={4900000}
           />
           <ServiceCard
-            title="H��� trợ đăng ký trường học/đại học – Quy trình hiệu quả"
+            title="Hỗ trợ đăng ký trường học/đại học – Quy trình hiệu quả"
             description="Từ lập danh sách trường, chuẩn bị tài liệu, điền form, nộp hồ sơ đến theo dõi trạng thái – mọi khâu đều có checklist rõ ràng để tiết kiệm thời gian và công sức."
             benefits={[
               'Lịch nộp hồ sơ và nhắc hạn',
@@ -54,6 +75,7 @@ export default function ServicesPage() {
               'Hướng dẫn học bổng, miễn/giảm phí nếu có',
               'Theo dõi kết quả, hỗ trợ phản hồi/bổ sung',
             ]}
+            priceFrom={1900000}
           />
           <ServiceCard
             title="Hỗ trợ Visa – Mở cánh cửa nhập cảnh"
@@ -64,6 +86,7 @@ export default function ServicesPage() {
               'Rà soát minh chứng tài chính và kế hoạch học tập',
               'Hướng dẫn các thủ tục sau cấp visa',
             ]}
+            priceFrom={2900000}
           />
           <ServiceCard
             title="Đào tạo (Training) – Sẵn sàng cho chặng đường mới"
@@ -74,6 +97,7 @@ export default function ServicesPage() {
               'Quản lý thời gian, tư duy phản biện, học online hiệu quả',
               'Hòa nhập văn hóa, kỹ năng sống và an toàn cá nhân',
             ]}
+            priceFrom={990000}
           />
         </div>
       </section>
